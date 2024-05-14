@@ -1,0 +1,228 @@
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.header .nav {
+    margin-top: 10px;
+}
+
+.header .nav ul {
+    list-style-type: none;
+}
+
+.header .nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header .nav ul li:last-child {
+    margin-right: 0;
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.main-section {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.main-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.main-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.main-section .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.main-section .btn:hover {
+    background-color: #0056b3;
+}
+
+.plans-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.plans-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.plans-section .plan {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.plans-section .plan h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.plans-section .plan p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.plans-section .plan ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.plans-section .plan ul li {
+    margin-bottom: 10px;
+}
+
+.plans-section .plan .btn {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.plans-section .plan .btn:hover {
+    background-color: #0056b3;
+}
+
+.team-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.team-section .team-members {
+    display: flex;
+    justify-content: center;
+}
+
+.team-section .team-member {
+    margin-right: 20px;
+}
+
+.team-section .team-member img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-section .team-member h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.team-section .team-member p {
+    font-size: 16px;
+    color: #666;
+}
+
+.testimonials-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.testimonials-section .testimonial {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.testimonials-section .testimonial p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.testimonials-section .testimonial span {
+    font-size: 16px;
+    color: #333;
+}
+
+.news-section {
+    padding: 50px 0;
+}
+
+.news-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.news-section .news-item {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.news-section .news-item h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
